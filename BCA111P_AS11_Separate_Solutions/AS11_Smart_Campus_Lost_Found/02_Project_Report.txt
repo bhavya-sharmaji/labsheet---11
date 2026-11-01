@@ -1,0 +1,72 @@
+LAB SHEET-10: SMART CAMPUS LOST & FOUND MANAGEMENT SYSTEM
+BCA I Semester (Session 2026-2027)
+
+1. OBJECTIVE
+To develop a simple system where students can report lost items, submit found items, search for belongings, and find possible matches between lost and found records.
+
+2. MODULES
+1. Student Login
+2. Report Lost Item
+3. Report Found Item
+4. Search Item
+5. Auto Match Lost & Found
+6. View All Records
+7. Delete Record
+8. Item Statistics
+9. Export Report
+10. Exit
+
+3. CONCEPTS USED
+Structures, vectors (dynamic arrays), file handling, functions, loops, searching, strings and sorting/library search utilities.
+
+4. ALGORITHM
+Step 1: Start the program.
+Step 2: Ask the student to enter their name and student ID.
+Step 3: Load saved lost-and-found records from the data file.
+Step 4: Display the main menu.
+Step 5: According to the selected option, report a lost/found item, search records, find possible matches, view all records, delete a record, show statistics, or export a report.
+Step 6: Save changes to the data file.
+Step 7: Repeat until the student selects Exit.
+Step 8: End the program.
+
+5. SAMPLE INPUT / OUTPUT (ILLUSTRATIVE)
+Student name: Aman
+Student ID: BCA101
+Login successful.
+
+Menu:
+1. Report Lost Item
+2. Report Found Item
+3. Search Item
+4. Auto Match Lost & Found
+5. View All Records
+6. Delete Record
+7. Item Statistics
+8. Export Report
+9. Exit
+
+Example lost report:
+Item name: Wallet
+Category: Wallet
+Description: Black leather wallet
+Location: Library
+Date: 2026-11-01
+Your name: Aman
+Contact information: aman@example.com
+Output: Lost item report saved.
+
+6. HOW TO RUN
+1. Open 01_Smart_Campus_Lost_Found.cpp in a C++ IDE.
+2. Compile using a C++11-or-later compiler.
+3. Run the program and enter a student name and ID.
+4. Use the menu to add and manage records.
+5. Keep lost_found_records.txt in the same folder as the executable to retain saved records.
+6. Choose Export Report to create lost_found_report.txt.
+
+7. CONCLUSION
+This project provides a basic digital method for managing lost and found items in a college. It demonstrates record management, searching, functions, structures, and file handling.
+
+8. NOTES
+- The student login is a basic classroom demonstration and does not verify identity against a college database.
+- Auto-match only suggests possible matches using item names/categories. A person must verify ownership.
+- Contact details are stored in a local text file. Do not use real sensitive personal information in a public/shared test environment.
